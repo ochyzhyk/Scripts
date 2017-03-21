@@ -1,0 +1,1 @@
+wmic /namespace:\\root\CIMV2\TerminalServices PATH Win32_TSPermissionsSetting WHERE (TerminalName="RDP-Tcp") CALL AddAccount "ulf\g-SVC-Manage-RDSessions",2
