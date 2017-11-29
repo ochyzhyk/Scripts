@@ -1,0 +1,13 @@
+c:\users\chyzhyko_m\documents\visual studio 2013\Projects\Vmware application\Vmware application\bin\Debug\Vmware application.exe.config
+c:\users\chyzhyko_m\documents\visual studio 2013\Projects\Vmware application\Vmware application\bin\Debug\Vmware application.exe
+c:\users\chyzhyko_m\documents\visual studio 2013\Projects\Vmware application\Vmware application\bin\Debug\Vmware application.pdb
+c:\users\chyzhyko_m\documents\visual studio 2013\Projects\Vmware application\Vmware application\bin\Debug\VMware.Vim.dll
+c:\users\chyzhyko_m\documents\visual studio 2013\Projects\Vmware application\Vmware application\bin\Debug\VimService65.dll
+c:\users\chyzhyko_m\documents\visual studio 2013\Projects\Vmware application\Vmware application\obj\Debug\Vmware application.csprojResolveAssemblyReference.cache
+c:\users\chyzhyko_m\documents\visual studio 2013\Projects\Vmware application\Vmware application\obj\Debug\Vmware application.exe
+c:\users\chyzhyko_m\documents\visual studio 2013\Projects\Vmware application\Vmware application\obj\Debug\Vmware application.pdb
+c:\users\chyzhyko_m\documents\visual studio 2013\Projects\Vmware application\Vmware application\bin\Debug\VMware.VimAutomation.ViCore.Util10.dll
+c:\users\chyzhyko_m\documents\visual studio 2013\Projects\Vmware application\Vmware application\bin\Debug\VMware.VimAutomation.ViCore.Util10Ps.dll
+c:\users\chyzhyko_m\documents\visual studio 2013\Projects\Vmware application\Vmware application\bin\Debug\VMware.VimAutomation.ViCore.Interop.dll
+c:\users\chyzhyko_m\documents\visual studio 2013\Projects\Vmware application\Vmware application\bin\Debug\VMware.VimAutomation.ViCore.Types.dll
+c:\users\chyzhyko_m\documents\visual studio 2013\Projects\Vmware application\Vmware application\bin\Debug\ICSharpCode.SharpZipLib.dll

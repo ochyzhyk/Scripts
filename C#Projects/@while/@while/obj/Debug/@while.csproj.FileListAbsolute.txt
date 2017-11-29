@@ -1,0 +1,6 @@
+c:\users\chyzhyko_m\documents\visual studio 2013\Projects\@while\@while\bin\Debug\@while.exe.config
+c:\users\chyzhyko_m\documents\visual studio 2013\Projects\@while\@while\bin\Debug\@while.exe
+c:\users\chyzhyko_m\documents\visual studio 2013\Projects\@while\@while\bin\Debug\@while.pdb
+c:\users\chyzhyko_m\documents\visual studio 2013\Projects\@while\@while\obj\Debug\@while.exe
+c:\users\chyzhyko_m\documents\visual studio 2013\Projects\@while\@while\obj\Debug\@while.pdb
+c:\users\chyzhyko_m\documents\visual studio 2013\Projects\@while\@while\obj\Debug\@while.csprojResolveAssemblyReference.cache

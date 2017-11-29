@@ -1,0 +1,202 @@
+﻿[void] [System.Reflection.Assembly]::LoadWithPartialName("System.Drawing") 
+[void] [System.Reflection.Assembly]::LoadWithPartialName("System.Windows.Forms")
+
+$main_form = New-Object System.Windows.Forms.Form
+$main_form.StartPosition  = "CenterScreen"
+$main_form.Text ='USER KILL'
+$main_form.Width = 300
+$main_form.Height = 250
+$main_form.AutoSize = $True
+
+$main_form.KeyPreview = $True
+$main_form.Add_KeyDown({if ($_.KeyCode -eq "Enter")
+    {$button1.Click}})
+$main_form.Add_KeyDown({if ($_.KeyCode -eq "Escape")
+    {$main_form.Close()}})
+
+#------------------- Блок "Отключение пользователя" --#
+$GroupBox2 = New-Object System.Windows.Forms.GroupBox
+$GroupBox2.AutoSize = $True
+$GroupBox2.Location  = New-Object System.Drawing.Point(5,0)
+
+$TabLabel1 = New-Object System.Windows.Forms.Label
+$TabLabel1.Text = "Для отключения пользователя `nВыберите коллекцию и логин."
+$TabLabel1.Font = New-Object System.Drawing.Font("Times New Roman",12)
+$TabLabel1.Location = New-Object System.Drawing.Point(20,10)
+$TabLabel1.AutoSize = $true
+$GroupBox2.Controls.Add($TabLabel1)
+
+$TabLabel2 = New-Object System.Windows.Forms.Label
+$TabLabel2.Text = ""
+$TabLabel2.Location = New-Object System.Drawing.Point(20,170)
+$TabLabel2.AutoSize = $true
+$GroupBox2.Controls.Add($TabLabel2)
+
+$TabLabel3 = New-Object System.Windows.Forms.Label
+$TabLabel3.Text = "Логин:"
+$TabLabel3.Location = New-Object System.Drawing.Point(20,110)
+$TabLabel3.AutoSize = $true
+$GroupBox2.Controls.Add($TabLabel3)
+
+$TabLabel4 = New-Object System.Windows.Forms.Label
+$TabLabel4.Text = "Коллекция:"
+$TabLabel4.Location = New-Object System.Drawing.Point(20,55)
+$TabLabel4.AutoSize = $true
+$GroupBox2.Controls.Add($TabLabel4)
+
+$DropDownBox = New-Object System.Windows.Forms.ComboBox
+$DropDownBox.Location = New-Object System.Drawing.Size(20,75) 
+$DropDownBox.Size = New-Object System.Drawing.Size(120,25) 
+$DropDownBox.DropDownHeight = 200 
+$GroupBox2.Controls.Add($DropDownBox) 
+
+$CollList=@("Collection1", "Collection2", "Collection3", ..., "CollectionN")
+
+foreach ($Coll in $CollList) {
+                      $DropDownBox.Items.Add($Coll)
+                              } #end foreach
+
+$DropDownBoxU = New-Object System.Windows.Forms.ComboBox
+$DropDownBoxU.Location = New-Object System.Drawing.Size(20,130) 
+$DropDownBoxU.Size = New-Object System.Drawing.Size(100,25) 
+$DropDownBoxU.DropDownHeight = 200 
+$GroupBox2.Controls.Add($DropDownBoxU)
+
+
+#------------------- Отключение пользователя --#
+function GetUser {
+		if ($DropDownBoxU.SelectedItem.ToString()) {$LoginUser = $DropDownBoxU.SelectedItem.ToString()
+        $Collection=$DropDownBox.SelectedItem.ToString()
+        $FullName=Get-ADUser -Filter {SamAccountName -eq $LoginUser}
+			foreach ($item in $FullName){
+            $Name=$Item.Name
+	      	$UserName = $Item.SamAccountName
+
+			Confirm
+			}
+		}
+	else {
+	$TabLabel2.Text = "Введите имя!"
+	}
+}
+#------------------- Конец (Отключение пользователя) --#
+
+#------------------- Поиск пользователя в коллекции--#
+
+function Invoke-SQL {
+    param(
+        [string] $column,
+        [string] $pattern
+        #[string] $dataSource = "srvdb.dc.local",
+        #[string] $database = "RDS",
+        #[string] $sqlCommand = "select * from rds.dbo.[searchUsersSession] where ServerName LIKE ('{0}%')" -f $pattern
+        #[string] $sqlCommand = $(throw "select * from rds.dbo.[searchUsersSession]")
+      )
+    #[string]$column = "UserName"
+    #[string]$pattern = "chum"
+
+
+    [string] $dataSource = "srvdb.dc.local"
+    [string] $database = "RDS"
+    [string] $sqlCommand = "select * from rds.dbo.[searchUsersSession] where {1} LIKE ('{0}%')" -f $pattern,$column
+    $connectionString = "Data Source=$dataSource; " +
+            "User ID= rdsview; " +
+            "Password= rdsview;" +
+            "Initial Catalog=$database"
+
+    $connection = new-object system.data.SqlClient.SQLConnection($connectionString)
+    $command = new-object system.data.sqlclient.sqlcommand($sqlCommand,$connection)
+    $connection.Open()
+
+    $adapter = New-Object System.Data.sqlclient.sqlDataAdapter $command
+    $dataset = New-Object System.Data.DataSet
+    $adapter.Fill($dataSet) | Out-Null
+
+    $connection.Close()
+    $dataSet.Tables
+}
+
+
+function SearchUser {
+        if ($DropDownBox.SelectedItem.ToString()) {
+        $Collection=$DropDownBox.SelectedItem.ToString()
+        $DropDownBoxU.Items.Clear()
+        $TabLabel2.Text = "Поиск..."
+        $UserList=@((Invoke-SQL ("CollectionName") $Collection).UserName) | sort
+            foreach ($user in $UserList) {
+            $DropDownBoxU.Items.Add($User) 
+            }
+        $TabLabel2.Text = "Поиск выполнен!"
+        }
+        else {
+	    $TabLabel2.Text = "Введите имя коллекции!"
+        }
+}
+
+#------------------- Конец (Поиск пользователя в коллекции)--#
+
+#------------------- Подтверждение отключения пользователя --#
+Function Confirm {
+	$TabLabel2.Text = "Ожидание подтверждения"
+        $ConfirmWin = New-Object System.Windows.Forms.Form
+        $ConfirmWin.StartPosition  = "CenterScreen"
+        $ConfirmWin.Text = "Подтверждение отключения"
+        $ConfirmWin.Width = 300
+        $ConfirmWin.Height = 140
+		$ConfirmWin.AutoSize = $True
+        $ConfirmWin.ControlBox = 0
+
+        $ConfirmWinCanButton = New-Object System.Windows.Forms.Button
+        $ConfirmWinCanButton.add_click({$ConfirmWin.Close();$TabLabel2.Text = ""})
+        $ConfirmWinCanButton.Text = "Нет"
+        $ConfirmWinCanButton.AutoSize = 1
+        $ConfirmWinCanButton.Location = New-Object System.Drawing.Point(200,55)
+        $ConfirmWin.Controls.Add($ConfirmWinCanButton)
+		
+        $ConfirmWinOKButton = New-Object System.Windows.Forms.Button
+        $ConfirmWinOKButton.add_click({
+			$a = (Invoke-SQL ("CollectionName") $Collection) | ? {$_.UserName -eq "$UserName"}
+            $cmd = "logoff /SERVER:{0} {1}" -f $a.ServerName, $a.SessionId
+            Invoke-Expression -Command $cmd
+			$TabLabel2.Text = ""
+			$ConfirmWin.Close()
+			})
+        $ConfirmWinOKButton.Text = "Да"
+        $ConfirmWinOKButton.AutoSize = 1
+        $ConfirmWinOKButton.Location = New-Object System.Drawing.Point(100,55)
+		$ConfirmWin.Controls.Add($ConfirmWinOKButton)
+
+        $ConfirmLabel = New-Object System.Windows.Forms.Label
+        $ConfirmLabel.Text = "Подтверждение отключения пользователя: $Name `nЛогин: $UserName"
+        $ConfirmLabel.AutoSize = 1
+        $ConfirmLabel.Location = New-Object System.Drawing.Point(10,10)
+        $ConfirmWin.Controls.Add($ConfirmLabel)
+
+		[void] $ConfirmWin.ShowDialog()
+    }
+#------------------- Конец (Подтверждение отключения пользователя) --#
+
+$button2 = New-Object System.Windows.Forms.Button
+$button2.add_click({GetUser})
+$button2.Text = "Отключение"
+$button2.Size = New-Object System.Drawing.Size(85,23)
+$button2.Location = New-Object System.Drawing.Point(125,129)
+$GroupBox2.Controls.Add($button2)
+
+$main_form.AcceptButton = $button2
+
+$main_form.Controls.Add($GroupBox2)
+
+$button2 = New-Object System.Windows.Forms.Button
+$button2.add_click({SearchUser})
+$button2.Text = "Поиск"
+$button2.Size = New-Object System.Drawing.Size(85,23)
+$button2.Location = New-Object System.Drawing.Point(145,74)
+$GroupBox2.Controls.Add($button2)
+
+$main_form.AcceptButton = $button2
+
+$main_form.Controls.Add($GroupBox2)
+#------------------- Конец (Блок "Отключение пользователя") --#
+
+[void] $Main_Form.ShowDialog()

@@ -1,0 +1,8 @@
+New-DynamicDistributionGroup -Name "TestDynamic" -OrganizationalUnit "dc.local/INFRASTRUTURE/GROUPS/Exchange"  -RecipientFilter{(RecipientTypeDetails -eq 'UserMailbox' -or RecipientTypeDetails -eq 'MailUser') -and (memberofGroup -eq "CN=group,OU=GROUPS,OU=INFRASTRUTURE,DC=dc,DC=local")}
+
+
+$var = Get-DynamicDistributionGroup "Test*"
+Get-Recipient -RecipientPreviewFilter $var.RecipientFilter
+
+
+Set-DynamicDistributionGroup -Identity "TestDynamic" -RecipientFilter{(

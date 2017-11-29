@@ -1,0 +1,6 @@
+c:\users\chyzhyko_m\documents\visual studio 2013\Projects\Recurtion\Recurtion\bin\Debug\Recurtion.exe.config
+c:\users\chyzhyko_m\documents\visual studio 2013\Projects\Recurtion\Recurtion\bin\Debug\Recurtion.exe
+c:\users\chyzhyko_m\documents\visual studio 2013\Projects\Recurtion\Recurtion\bin\Debug\Recurtion.pdb
+c:\users\chyzhyko_m\documents\visual studio 2013\Projects\Recurtion\Recurtion\obj\Debug\Recurtion.csprojResolveAssemblyReference.cache
+c:\users\chyzhyko_m\documents\visual studio 2013\Projects\Recurtion\Recurtion\obj\Debug\Recurtion.exe
+c:\users\chyzhyko_m\documents\visual studio 2013\Projects\Recurtion\Recurtion\obj\Debug\Recurtion.pdb

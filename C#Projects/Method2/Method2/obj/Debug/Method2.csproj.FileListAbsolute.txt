@@ -1,0 +1,6 @@
+c:\users\chyzhyko_m\documents\visual studio 2013\Projects\Method2\Method2\bin\Debug\Method2.exe.config
+c:\users\chyzhyko_m\documents\visual studio 2013\Projects\Method2\Method2\bin\Debug\Method2.exe
+c:\users\chyzhyko_m\documents\visual studio 2013\Projects\Method2\Method2\bin\Debug\Method2.pdb
+c:\users\chyzhyko_m\documents\visual studio 2013\Projects\Method2\Method2\obj\Debug\Method2.csprojResolveAssemblyReference.cache
+c:\users\chyzhyko_m\documents\visual studio 2013\Projects\Method2\Method2\obj\Debug\Method2.exe
+c:\users\chyzhyko_m\documents\visual studio 2013\Projects\Method2\Method2\obj\Debug\Method2.pdb

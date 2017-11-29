@@ -1,0 +1,29 @@
+﻿
+$OutFile =  "D:\3PAR_Failed_disk.txt"
+
+Import-Module -Name posh-ssh
+New-SSHSession -ComputerName "10.10.10.10"
+
+
+"`n#showsys" | Out-File -FilePath $OutFile -Append
+Invoke-SSHCommand -Index 0 -Command "showsys" | select -ExpandProperty Output | Out-File -FilePath $OutFile -Append
+
+"`n#showversion" | Out-File -FilePath $OutFile -Append
+Invoke-SSHCommand -Index 0 -Command "showversion" | select -ExpandProperty Output | Out-File -FilePath $OutFile -Append
+
+"`n#showpd -c" | Out-File -FilePath $OutFile -Append
+Invoke-SSHCommand -Index 0 -Command "showpd -c" | select -ExpandProperty Output | Out-File -FilePath $OutFile -Append
+
+"`n#showpd -failed -degraded" | Out-File -FilePath $OutFile -Append
+Invoke-SSHCommand -Index 0 -Command "showpd -failed -degraded" | select -ExpandProperty Output | Out-File -FilePath $OutFile -Append
+
+"`n#showpd -i" | Out-File -FilePath $OutFile -Append
+Invoke-SSHCommand -Index 0 -Command "showpd -i" | select -ExpandProperty Output | Out-File -FilePath $OutFile -Append
+
+"`n#showpd -s" | Out-File -FilePath $OutFile -Append
+Invoke-SSHCommand -Index 0 -Command "showpd -s" | select -ExpandProperty Output | Out-File -FilePath $OutFile -Append
+
+"`n#servicemag status -d" | Out-File -FilePath $OutFile -Append
+Invoke-SSHCommand -Index 0 -Command "servicemag status -d " | select -ExpandProperty Output | Out-File -FilePath $OutFile -Append
+
+Remove-SSHSession -SessionId 0

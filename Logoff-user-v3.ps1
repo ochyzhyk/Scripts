@@ -50,7 +50,7 @@ $DropDownBox.Size = New-Object System.Drawing.Size(120,25) 
 $DropDownBox.DropDownHeight = 200 
 $GroupBox2.Controls.Add($DropDownBox) 
 
-$CollList=@("DC-03 (Itilium)", "DC-04", "1C TЄП", "Directum_TEST", "Tetra", "Казначейство-Test", "Directum", "NSI", "1С УАХ", "1С Райз", "1C UMAP", "1c UMAP+SmartMap", "1С Казначейство", "1С Мясо", "1c Audit", "Medoc", "1C Treasury AVG", "Liga", "1c distributions")
+$CollList=@("Collection1", "Collection2", "Collection3", ..., "CollectionN")
 
 foreach ($Coll in $CollList) {
                       $DropDownBox.Items.Add($Coll)
@@ -87,7 +87,7 @@ function SearchUser {
         if ($DropDownBox.SelectedItem.ToString()) {
         $Collection=$DropDownBox.SelectedItem.ToString()
         $TabLabel2.Text = "Поиск..."
-        $UserList=@(Get-RDUserSession -ConnectionBroker srv-rds100.ulf.local -CollectionName $Collection | Sort-Object UserName )
+        $UserList=@(Get-RDUserSession -ConnectionBroker srvCB.dc.local -CollectionName $Collection | Sort-Object UserName )
             foreach ($user in $UserList) {
             $DropDownBoxU.Items.Add($User.UserName) 
             }
@@ -120,7 +120,7 @@ Function Confirm {
 		
         $ConfirmWinOKButton = New-Object System.Windows.Forms.Button
         $ConfirmWinOKButton.add_click({
-			Get-RDUserSession -connectionbroker "srv-rds100.ulf.local" -CollectionName $Collection | ? {$_.UserName -eq "$UserName"} | Invoke-RDUserLogoff -Force
+			Get-RDUserSession -connectionbroker "srvCB.dc.local" -CollectionName $Collection | ? {$_.UserName -eq "$UserName"} | Invoke-RDUserLogoff -Force
 			$TabLabel2.Text = ""
 			$ConfirmWin.Close()
 			})

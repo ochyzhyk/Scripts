@@ -1,0 +1,6 @@
+c:\users\chyzhyko_m\documents\visual studio 2013\Projects\Change_Phone_numbers\Change_Phone_numbers\bin\Debug\Change_Phone_numbers.exe.config
+c:\users\chyzhyko_m\documents\visual studio 2013\Projects\Change_Phone_numbers\Change_Phone_numbers\bin\Debug\Change_Phone_numbers.exe
+c:\users\chyzhyko_m\documents\visual studio 2013\Projects\Change_Phone_numbers\Change_Phone_numbers\bin\Debug\Change_Phone_numbers.pdb
+c:\users\chyzhyko_m\documents\visual studio 2013\Projects\Change_Phone_numbers\Change_Phone_numbers\obj\Debug\Change_Phone_numbers.exe
+c:\users\chyzhyko_m\documents\visual studio 2013\Projects\Change_Phone_numbers\Change_Phone_numbers\obj\Debug\Change_Phone_numbers.pdb
+c:\users\chyzhyko_m\documents\visual studio 2013\Projects\Change_Phone_numbers\Change_Phone_numbers\obj\Debug\Change_Phone_numbers.csprojResolveAssemblyReference.cache

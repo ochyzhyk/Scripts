@@ -1,0 +1,6 @@
+c:\users\chyzhyko_m\documents\visual studio 2013\Projects\jaggedarray\jaggedarray\bin\Debug\jaggedarray.exe.config
+c:\users\chyzhyko_m\documents\visual studio 2013\Projects\jaggedarray\jaggedarray\bin\Debug\jaggedarray.exe
+c:\users\chyzhyko_m\documents\visual studio 2013\Projects\jaggedarray\jaggedarray\bin\Debug\jaggedarray.pdb
+c:\users\chyzhyko_m\documents\visual studio 2013\Projects\jaggedarray\jaggedarray\obj\Debug\jaggedarray.csprojResolveAssemblyReference.cache
+c:\users\chyzhyko_m\documents\visual studio 2013\Projects\jaggedarray\jaggedarray\obj\Debug\jaggedarray.exe
+c:\users\chyzhyko_m\documents\visual studio 2013\Projects\jaggedarray\jaggedarray\obj\Debug\jaggedarray.pdb

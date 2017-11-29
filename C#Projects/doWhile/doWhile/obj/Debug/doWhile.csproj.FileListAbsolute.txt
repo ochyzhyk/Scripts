@@ -1,0 +1,6 @@
+c:\users\chyzhyko_m\documents\visual studio 2013\Projects\doWhile\doWhile\bin\Debug\doWhile.exe.config
+c:\users\chyzhyko_m\documents\visual studio 2013\Projects\doWhile\doWhile\bin\Debug\doWhile.exe
+c:\users\chyzhyko_m\documents\visual studio 2013\Projects\doWhile\doWhile\bin\Debug\doWhile.pdb
+c:\users\chyzhyko_m\documents\visual studio 2013\Projects\doWhile\doWhile\obj\Debug\doWhile.csprojResolveAssemblyReference.cache
+c:\users\chyzhyko_m\documents\visual studio 2013\Projects\doWhile\doWhile\obj\Debug\doWhile.exe
+c:\users\chyzhyko_m\documents\visual studio 2013\Projects\doWhile\doWhile\obj\Debug\doWhile.pdb

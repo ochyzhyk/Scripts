@@ -1,0 +1,6 @@
+c:\users\chyzhyko_m\documents\visual studio 2013\Projects\Method\Method\bin\Debug\Method.exe.config
+c:\users\chyzhyko_m\documents\visual studio 2013\Projects\Method\Method\obj\Debug\Method.csprojResolveAssemblyReference.cache
+c:\users\chyzhyko_m\documents\visual studio 2013\Projects\Method\Method\bin\Debug\Method.exe
+c:\users\chyzhyko_m\documents\visual studio 2013\Projects\Method\Method\bin\Debug\Method.pdb
+c:\users\chyzhyko_m\documents\visual studio 2013\Projects\Method\Method\obj\Debug\Method.exe
+c:\users\chyzhyko_m\documents\visual studio 2013\Projects\Method\Method\obj\Debug\Method.pdb

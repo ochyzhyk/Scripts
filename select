@@ -1,0 +1,15 @@
+select name from msdb.dbo.sysmail_profile
+select name from msdb.dbo.sysmail_account
+select servername from msdb.dbo.sysmail_server
+select is_default from msdb.dbo.sysmail_principalprofile
+select name, enabled, email_address FROM msdb.dbo.sysoperators
+
+
+--GPO or GPEdit.msc (Local policy)
+
+--Computer Configuration > Administrative Templates > Windows Components > Remote Desktop Services > Remote Desktop Session Host > Printer Redirection > Do not allow client printer redirection
+
+
+--Snp-> undi.get._status()
+--SmartArrayPresentEventCallback: Event Callback Ended.
+--InstallProtocolInterface: 143B7632-B81B-4CB7-ABD3-B625A5B9BFFE 71D1C130

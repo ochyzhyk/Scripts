@@ -1,0 +1,6 @@
+c:\users\chyzhyko_m\documents\visual studio 2013\Projects\ELKIndecesDelete\ELKIndecesDelete\bin\Debug\ELKIndecesDelete.exe.config
+c:\users\chyzhyko_m\documents\visual studio 2013\Projects\ELKIndecesDelete\ELKIndecesDelete\bin\Debug\ELKIndecesDelete.exe
+c:\users\chyzhyko_m\documents\visual studio 2013\Projects\ELKIndecesDelete\ELKIndecesDelete\bin\Debug\ELKIndecesDelete.pdb
+c:\users\chyzhyko_m\documents\visual studio 2013\Projects\ELKIndecesDelete\ELKIndecesDelete\bin\Debug\Renci.SshNet.dll
+c:\users\chyzhyko_m\documents\visual studio 2013\Projects\ELKIndecesDelete\ELKIndecesDelete\obj\Debug\ELKIndecesDelete.exe
+c:\users\chyzhyko_m\documents\visual studio 2013\Projects\ELKIndecesDelete\ELKIndecesDelete\obj\Debug\ELKIndecesDelete.pdb

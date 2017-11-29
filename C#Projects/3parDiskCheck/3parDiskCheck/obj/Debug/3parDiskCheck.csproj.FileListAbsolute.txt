@@ -1,0 +1,9 @@
+c:\users\chyzhyko_m\documents\visual studio 2013\Projects\3parDiskCheck\3parDiskCheck\bin\Debug\3parDiskCheck.exe.config
+C:\Users\chyzhyko_m\Documents\Visual Studio 2013\Projects\3parDiskCheck\3parDiskCheck\bin\Debug\3parDiskCheck.exe
+C:\Users\chyzhyko_m\Documents\Visual Studio 2013\Projects\3parDiskCheck\3parDiskCheck\bin\Debug\3parDiskCheck.pdb
+C:\Users\chyzhyko_m\Documents\Visual Studio 2013\Projects\3parDiskCheck\3parDiskCheck\bin\Debug\Newtonsoft.Json.dll
+C:\Users\chyzhyko_m\Documents\Visual Studio 2013\Projects\3parDiskCheck\3parDiskCheck\bin\Debug\Newtonsoft.Json.pdb
+C:\Users\chyzhyko_m\Documents\Visual Studio 2013\Projects\3parDiskCheck\3parDiskCheck\bin\Debug\Newtonsoft.Json.xml
+C:\Users\chyzhyko_m\Documents\Visual Studio 2013\Projects\3parDiskCheck\3parDiskCheck\obj\Debug\3parDiskCheck.csprojResolveAssemblyReference.cache
+C:\Users\chyzhyko_m\Documents\Visual Studio 2013\Projects\3parDiskCheck\3parDiskCheck\obj\Debug\3parDiskCheck.exe
+C:\Users\chyzhyko_m\Documents\Visual Studio 2013\Projects\3parDiskCheck\3parDiskCheck\obj\Debug\3parDiskCheck.pdb

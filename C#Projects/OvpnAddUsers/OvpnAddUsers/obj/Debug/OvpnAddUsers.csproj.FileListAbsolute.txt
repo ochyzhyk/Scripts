@@ -1,0 +1,6 @@
+c:\users\chyzhyko_m\documents\visual studio 2013\Projects\OvpnAddUsers\OvpnAddUsers\bin\Debug\OvpnAddUsers.exe.config
+C:\Users\chyzhyko_m\Documents\Visual Studio 2013\Projects\OvpnAddUsers\OvpnAddUsers\bin\Debug\OvpnAddUsers.exe
+C:\Users\chyzhyko_m\Documents\Visual Studio 2013\Projects\OvpnAddUsers\OvpnAddUsers\bin\Debug\OvpnAddUsers.pdb
+C:\Users\chyzhyko_m\Documents\Visual Studio 2013\Projects\OvpnAddUsers\OvpnAddUsers\obj\Debug\OvpnAddUsers.exe
+C:\Users\chyzhyko_m\Documents\Visual Studio 2013\Projects\OvpnAddUsers\OvpnAddUsers\obj\Debug\OvpnAddUsers.pdb
+C:\Users\chyzhyko_m\Documents\Visual Studio 2013\Projects\OvpnAddUsers\OvpnAddUsers\obj\Debug\OvpnAddUsers.csprojResolveAssemblyReference.cache

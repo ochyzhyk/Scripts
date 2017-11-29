@@ -1,0 +1,48 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "location": {
+            "value": "westeurope"
+        },
+        "virtualMachineName": {
+            "value": "SRV-DB402"
+        },
+        "virtualMachineSize": {
+            "value": "Standard_DS13_v2"
+        },
+        "adminUsername": {
+            "value": "riseadmin"
+        },
+        "virtualNetworkName": {
+            "value": "ULF_VN_01"
+        },
+        "networkInterfaceName": {
+            "value": "srv-db402482"
+        },
+        "networkSecurityGroupName": {
+            "value": "SRV-DB402-nsg"
+        },
+        "adminPassword": {
+            "value": null
+        },
+        "storageAccountName": {
+            "value": "ulfrs01disks333"
+        },
+        "diagnosticsStorageAccountName": {
+            "value": "ulfrs01diag999"
+        },
+        "diagnosticsStorageAccountId": {
+            "value": "/subscriptions/6c49794a-249c-4b22-8940-f90e31920421/resourceGroups/ulf_rs_01/providers/Microsoft.Storage/storageAccounts/ulfrs01diag999"
+        },
+        "subnetName": {
+            "value": "VM_Subnet_02"
+        },
+        "publicIpAddressName": {
+            "value": "SRV-DB402-ip"
+        },
+        "publicIpAddressType": {
+            "value": "Dynamic"
+        }
+    }
+}

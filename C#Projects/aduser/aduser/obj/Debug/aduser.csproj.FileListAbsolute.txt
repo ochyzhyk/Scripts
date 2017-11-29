@@ -1,0 +1,6 @@
+c:\users\chyzhyko_m\documents\visual studio 2013\Projects\aduser\aduser\bin\Debug\aduser.exe.config
+c:\users\chyzhyko_m\documents\visual studio 2013\Projects\aduser\aduser\bin\Debug\aduser.exe
+c:\users\chyzhyko_m\documents\visual studio 2013\Projects\aduser\aduser\bin\Debug\aduser.pdb
+c:\users\chyzhyko_m\documents\visual studio 2013\Projects\aduser\aduser\obj\Debug\aduser.csprojResolveAssemblyReference.cache
+c:\users\chyzhyko_m\documents\visual studio 2013\Projects\aduser\aduser\obj\Debug\aduser.exe
+c:\users\chyzhyko_m\documents\visual studio 2013\Projects\aduser\aduser\obj\Debug\aduser.pdb

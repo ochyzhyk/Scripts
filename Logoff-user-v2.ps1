@@ -43,7 +43,7 @@ $DropDownBox.Size = New-Object System.Drawing.Size(180,20) 
 $DropDownBox.DropDownHeight = 200 
 $GroupBox2.Controls.Add($DropDownBox) 
 
-$CollList=@("DC-03 (Itilium)", "DC-04", "1C TЄП", "Directum_TEST", "Tetra", "Казначейство-Test", "Directum", "NSI", "1С УАХ", "1С Райз", "1C UMAP", "1c UMAP+SmartMap", "1С Казначейство", "1С Мясо", "1c Audit", "Medoc", "1C Treasury AVG", "Liga", "1c distributions")
+$CollList=@("Collection1","Collection2",..."CollectionN")
 
 foreach ($Coll in $CollList) {
                       $DropDownBox.Items.Add($Coll)
@@ -60,7 +60,7 @@ function GetUser {
 #        $colls = Get-RDSessionCollection
 #        foreach ($coll in $colls) {
         $TabLabel2.Text = "Поиск..."
-		$a = Get-RDUserSession -connectionbroker "srv-rds100.ulf.local" -CollectionName $Collection | ? {$_.UserName -eq "$LoginUser"} |Select-Object UserName, SessionId, ServerName, SessionState
+		$a = Get-RDUserSession -connectionbroker "srvCB.dc.local" -CollectionName $Collection | ? {$_.UserName -eq "$LoginUser"} |Select-Object UserName, SessionId, ServerName, SessionState
 		$TabLabel2.Text = "Пользователь не найден $Collection"
 			foreach ($item in $a){
 			$ID = $item.SessionId
@@ -97,7 +97,7 @@ Function Confirm {
 		
         $ConfirmWinOKButton = New-Object System.Windows.Forms.Button
         $ConfirmWinOKButton.add_click({
-			Get-RDUserSession -connectionbroker "srv-rds100.ulf.local" -CollectionName $Collection | ? {$_.UserName -eq "$UserName"} | Invoke-RDUserLogoff -Force
+			Get-RDUserSession -connectionbroker "srvCB.dc.local" -CollectionName $Collection | ? {$_.UserName -eq "$UserName"} | Invoke-RDUserLogoff -Force
 			$TabLabel2.Text = ""
 			$ConfirmWin.Close()
 			})

@@ -1,0 +1,5 @@
+c:\users\chyzhyko_m\documents\visual studio 2013\Projects\WebClient\WebClient\bin\Debug\WebClient.exe.config
+c:\users\chyzhyko_m\documents\visual studio 2013\Projects\WebClient\WebClient\bin\Debug\WebClient.exe
+c:\users\chyzhyko_m\documents\visual studio 2013\Projects\WebClient\WebClient\bin\Debug\WebClient.pdb
+c:\users\chyzhyko_m\documents\visual studio 2013\Projects\WebClient\WebClient\obj\Debug\WebClient.exe
+c:\users\chyzhyko_m\documents\visual studio 2013\Projects\WebClient\WebClient\obj\Debug\WebClient.pdb

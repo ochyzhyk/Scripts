@@ -1,0 +1,2 @@
+curl 'localhost:9200/_cat/indices?v'
+curl -XDELETE 'http://localhost:9200/winlogbeat-2017.02.20/?pretty=true'

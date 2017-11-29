@@ -1,0 +1,8 @@
+c:\users\chyzhyko_m\documents\visual studio 2013\Projects\For\For\bin\Debug\For.exe.config
+c:\users\chyzhyko_m\documents\visual studio 2013\Projects\For\For\obj\Debug\For.csprojResolveAssemblyReference.cache
+c:\users\chyzhyko_m\documents\visual studio 2013\Projects\For\For\bin\Debug\For.exe
+c:\users\chyzhyko_m\documents\visual studio 2013\Projects\For\For\bin\Debug\For.pdb
+c:\users\chyzhyko_m\documents\visual studio 2013\Projects\For\For\obj\Debug\For.exe
+c:\users\chyzhyko_m\documents\visual studio 2013\Projects\For\For\obj\Debug\For.pdb
+c:\users\chyzhyko_m\documents\visual studio 2013\Projects\For\For\obj\Debug\Interop.InteropExtensionLib.dll
+c:\users\chyzhyko_m\documents\visual studio 2013\Projects\For\For\obj\Debug\For.csproj.ResolveComReference.cache

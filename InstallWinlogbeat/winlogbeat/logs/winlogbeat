@@ -1,0 +1,107 @@
+2016-11-17T15:31:47+02:00 INFO Home path: [C:\Program Files\Winlogbeat] Config path: [C:\Program Files\Winlogbeat] Data path: [C:\\ProgramData\\winlogbeat] Logs path: [C:\Program Files\Winlogbeat\logs]
+2016-11-17T15:31:47+02:00 INFO Setup Beat: winlogbeat; Version: 5.0.1
+2016-11-17T15:31:47+02:00 INFO Loading template enabled. Reading template file: C:\Program Files\Winlogbeat\winlogbeat.template.json
+2016-11-17T15:31:47+02:00 INFO Loading template enabled for Elasticsearch 2.x. Reading template file: C:\Program Files\Winlogbeat\winlogbeat.template-es2x.json
+2016-11-17T15:31:47+02:00 INFO Elasticsearch url: http://10.9.130.149:9200
+2016-11-17T15:31:47+02:00 INFO Activated elasticsearch as output plugin.
+2016-11-17T15:31:47+02:00 INFO Publisher name: korsako-wks
+2016-11-17T15:31:47+02:00 INFO Flush Interval set to: 1s
+2016-11-17T15:31:47+02:00 INFO Max Bulk Size set to: 50
+2016-11-17T15:31:47+02:00 INFO State will be read from and persisted to C:\ProgramData\winlogbeat\.winlogbeat.yml
+2016-11-17T15:31:47+02:00 INFO winlogbeat start running.
+2016-11-17T15:31:50+02:00 ERR Connecting error publishing events (retrying): Get http://10.9.130.149:9200: dial tcp 10.9.130.149:9200: connectex: No connection could be made because the target machine actively refused it.
+2016-11-17T15:31:52+02:00 ERR Connecting error publishing events (retrying): Get http://10.9.130.149:9200: dial tcp 10.9.130.149:9200: connectex: No connection could be made because the target machine actively refused it.
+2016-11-17T15:31:55+02:00 ERR Connecting error publishing events (retrying): Get http://10.9.130.149:9200: dial tcp 10.9.130.149:9200: connectex: No connection could be made because the target machine actively refused it.
+2016-11-17T15:32:00+02:00 ERR Connecting error publishing events (retrying): Get http://10.9.130.149:9200: dial tcp 10.9.130.149:9200: connectex: No connection could be made because the target machine actively refused it.
+2016-11-17T15:32:09+02:00 ERR Connecting error publishing events (retrying): Get http://10.9.130.149:9200: dial tcp 10.9.130.149:9200: connectex: No connection could be made because the target machine actively refused it.
+2016-11-17T15:32:17+02:00 INFO Non-zero metrics in the last 30s: msg_file_cache.SystemHits=86 msg_file_cache.SecuritySize=1 libbeat.publisher.published_events=300 msg_file_cache.ApplicationHits=76 msg_file_cache.ApplicationSize=25 msg_file_cache.SecurityMisses=1 msg_file_cache.SystemMisses=14 msg_file_cache.ApplicationMisses=25 msg_file_cache.SystemSize=14 msg_file_cache.SecurityHits=99
+2016-11-17T15:32:26+02:00 ERR Connecting error publishing events (retrying): Get http://10.9.130.149:9200: dial tcp 10.9.130.149:9200: connectex: No connection could be made because the target machine actively refused it.
+2016-11-17T15:32:47+02:00 INFO No non-zero metrics in the last 30s
+2016-11-17T15:32:59+02:00 ERR Connecting error publishing events (retrying): Get http://10.9.130.149:9200: dial tcp 10.9.130.149:9200: connectex: No connection could be made because the target machine actively refused it.
+2016-11-17T15:33:17+02:00 INFO No non-zero metrics in the last 30s
+2016-11-17T15:33:47+02:00 INFO No non-zero metrics in the last 30s
+2016-11-17T15:34:00+02:00 ERR Connecting error publishing events (retrying): Get http://10.9.130.149:9200: dial tcp 10.9.130.149:9200: connectex: No connection could be made because the target machine actively refused it.
+2016-11-17T15:34:17+02:00 INFO Non-zero metrics in the last 30s: msg_file_cache.SystemSize=-14 msg_file_cache.ApplicationSize=-25 msg_file_cache.SecuritySize=-1
+2016-11-17T15:34:47+02:00 INFO No non-zero metrics in the last 30s
+2016-11-17T15:35:09+02:00 ERR Connecting error publishing events (retrying): Get http://10.9.130.149:9200: dial tcp 10.9.130.149:9200: connectex: No connection could be made because the target machine actively refused it.
+2016-11-17T15:35:17+02:00 INFO No non-zero metrics in the last 30s
+2016-11-17T15:35:47+02:00 INFO No non-zero metrics in the last 30s
+2016-11-17T15:36:10+02:00 ERR Connecting error publishing events (retrying): Get http://10.9.130.149:9200: dial tcp 10.9.130.149:9200: connectex: No connection could be made because the target machine actively refused it.
+2016-11-17T15:36:17+02:00 INFO No non-zero metrics in the last 30s
+2016-11-17T15:36:47+02:00 INFO No non-zero metrics in the last 30s
+2016-11-17T15:37:11+02:00 ERR Connecting error publishing events (retrying): Get http://10.9.130.149:9200: dial tcp 10.9.130.149:9200: connectex: No connection could be made because the target machine actively refused it.
+2016-11-17T15:37:17+02:00 INFO No non-zero metrics in the last 30s
+2016-11-17T15:37:47+02:00 INFO No non-zero metrics in the last 30s
+2016-11-17T15:38:12+02:00 ERR Connecting error publishing events (retrying): Get http://10.9.130.149:9200: dial tcp 10.9.130.149:9200: connectex: No connection could be made because the target machine actively refused it.
+2016-11-17T15:38:17+02:00 INFO No non-zero metrics in the last 30s
+2016-11-17T15:38:47+02:00 INFO No non-zero metrics in the last 30s
+2016-11-17T15:39:13+02:00 ERR Connecting error publishing events (retrying): Get http://10.9.130.149:9200: dial tcp 10.9.130.149:9200: connectex: No connection could be made because the target machine actively refused it.
+2016-11-17T15:39:17+02:00 INFO No non-zero metrics in the last 30s
+2016-11-17T15:39:47+02:00 INFO No non-zero metrics in the last 30s
+2016-11-17T15:40:14+02:00 ERR Connecting error publishing events (retrying): Get http://10.9.130.149:9200: dial tcp 10.9.130.149:9200: connectex: No connection could be made because the target machine actively refused it.
+2016-11-17T15:40:17+02:00 INFO No non-zero metrics in the last 30s
+2016-11-17T15:40:47+02:00 INFO No non-zero metrics in the last 30s
+2016-11-17T15:41:15+02:00 ERR Connecting error publishing events (retrying): Get http://10.9.130.149:9200: dial tcp 10.9.130.149:9200: connectex: No connection could be made because the target machine actively refused it.
+2016-11-17T15:41:17+02:00 INFO No non-zero metrics in the last 30s
+2016-11-17T15:41:47+02:00 INFO No non-zero metrics in the last 30s
+2016-11-17T15:42:16+02:00 ERR Connecting error publishing events (retrying): Get http://10.9.130.149:9200: dial tcp 10.9.130.149:9200: connectex: No connection could be made because the target machine actively refused it.
+2016-11-17T15:42:17+02:00 INFO No non-zero metrics in the last 30s
+2016-11-17T15:42:47+02:00 INFO No non-zero metrics in the last 30s
+2016-11-17T15:43:17+02:00 INFO No non-zero metrics in the last 30s
+2016-11-17T15:43:17+02:00 ERR Connecting error publishing events (retrying): Get http://10.9.130.149:9200: dial tcp 10.9.130.149:9200: connectex: No connection could be made because the target machine actively refused it.
+2016-11-17T15:43:47+02:00 INFO No non-zero metrics in the last 30s
+2016-11-17T15:44:17+02:00 INFO No non-zero metrics in the last 30s
+2016-11-17T15:44:18+02:00 ERR Connecting error publishing events (retrying): Get http://10.9.130.149:9200: dial tcp 10.9.130.149:9200: connectex: No connection could be made because the target machine actively refused it.
+2016-11-17T15:44:47+02:00 INFO No non-zero metrics in the last 30s
+2016-11-17T15:45:17+02:00 INFO No non-zero metrics in the last 30s
+2016-11-17T15:45:19+02:00 ERR Connecting error publishing events (retrying): Get http://10.9.130.149:9200: dial tcp 10.9.130.149:9200: connectex: No connection could be made because the target machine actively refused it.
+2016-11-17T15:45:47+02:00 INFO No non-zero metrics in the last 30s
+2016-11-17T15:46:17+02:00 INFO No non-zero metrics in the last 30s
+2016-11-17T15:46:20+02:00 ERR Connecting error publishing events (retrying): Get http://10.9.130.149:9200: dial tcp 10.9.130.149:9200: connectex: No connection could be made because the target machine actively refused it.
+2016-11-17T15:46:47+02:00 INFO No non-zero metrics in the last 30s
+2016-11-17T15:47:17+02:00 INFO No non-zero metrics in the last 30s
+2016-11-17T15:47:21+02:00 ERR Connecting error publishing events (retrying): Get http://10.9.130.149:9200: dial tcp 10.9.130.149:9200: connectex: No connection could be made because the target machine actively refused it.
+2016-11-17T15:47:47+02:00 INFO No non-zero metrics in the last 30s
+2016-11-17T15:48:17+02:00 INFO No non-zero metrics in the last 30s
+2016-11-17T15:48:22+02:00 ERR Connecting error publishing events (retrying): Get http://10.9.130.149:9200: dial tcp 10.9.130.149:9200: connectex: No connection could be made because the target machine actively refused it.
+2016-11-17T15:48:47+02:00 INFO No non-zero metrics in the last 30s
+2016-11-17T15:49:17+02:00 INFO No non-zero metrics in the last 30s
+2016-11-17T15:49:23+02:00 ERR Connecting error publishing events (retrying): Get http://10.9.130.149:9200: dial tcp 10.9.130.149:9200: connectex: No connection could be made because the target machine actively refused it.
+2016-11-17T15:49:47+02:00 INFO No non-zero metrics in the last 30s
+2016-11-17T15:50:17+02:00 INFO No non-zero metrics in the last 30s
+2016-11-17T15:50:24+02:00 ERR Connecting error publishing events (retrying): Get http://10.9.130.149:9200: dial tcp 10.9.130.149:9200: connectex: No connection could be made because the target machine actively refused it.
+2016-11-17T15:50:47+02:00 INFO No non-zero metrics in the last 30s
+2016-11-17T15:51:17+02:00 INFO No non-zero metrics in the last 30s
+2016-11-17T15:51:25+02:00 ERR Connecting error publishing events (retrying): Get http://10.9.130.149:9200: dial tcp 10.9.130.149:9200: connectex: No connection could be made because the target machine actively refused it.
+2016-11-17T15:51:47+02:00 INFO No non-zero metrics in the last 30s
+2016-11-17T15:52:17+02:00 INFO No non-zero metrics in the last 30s
+2016-11-17T15:52:26+02:00 ERR Connecting error publishing events (retrying): Get http://10.9.130.149:9200: dial tcp 10.9.130.149:9200: connectex: No connection could be made because the target machine actively refused it.
+2016-11-17T15:52:47+02:00 INFO No non-zero metrics in the last 30s
+2016-11-17T15:53:17+02:00 INFO No non-zero metrics in the last 30s
+2016-11-17T15:53:27+02:00 ERR Connecting error publishing events (retrying): Get http://10.9.130.149:9200: dial tcp 10.9.130.149:9200: connectex: No connection could be made because the target machine actively refused it.
+2016-11-17T15:53:47+02:00 INFO No non-zero metrics in the last 30s
+2016-11-17T15:54:17+02:00 INFO No non-zero metrics in the last 30s
+2016-11-17T15:54:28+02:00 ERR Connecting error publishing events (retrying): Get http://10.9.130.149:9200: dial tcp 10.9.130.149:9200: connectex: No connection could be made because the target machine actively refused it.
+2016-11-17T15:54:47+02:00 INFO No non-zero metrics in the last 30s
+2016-11-17T15:55:17+02:00 INFO No non-zero metrics in the last 30s
+2016-11-17T15:55:29+02:00 ERR Connecting error publishing events (retrying): Get http://10.9.130.149:9200: dial tcp 10.9.130.149:9200: connectex: No connection could be made because the target machine actively refused it.
+2016-11-17T15:55:47+02:00 INFO No non-zero metrics in the last 30s
+2016-11-17T15:56:17+02:00 INFO No non-zero metrics in the last 30s
+2016-11-17T15:56:30+02:00 ERR Connecting error publishing events (retrying): Get http://10.9.130.149:9200: dial tcp 10.9.130.149:9200: connectex: No connection could be made because the target machine actively refused it.
+2016-11-17T15:56:47+02:00 INFO No non-zero metrics in the last 30s
+2016-11-17T15:57:17+02:00 INFO No non-zero metrics in the last 30s
+2016-11-17T15:57:31+02:00 ERR Connecting error publishing events (retrying): Get http://10.9.130.149:9200: dial tcp 10.9.130.149:9200: connectex: No connection could be made because the target machine actively refused it.
+2016-11-17T15:57:47+02:00 INFO No non-zero metrics in the last 30s
+2016-11-17T15:58:17+02:00 INFO No non-zero metrics in the last 30s
+2016-11-17T15:58:32+02:00 ERR Connecting error publishing events (retrying): Get http://10.9.130.149:9200: dial tcp 10.9.130.149:9200: connectex: No connection could be made because the target machine actively refused it.
+2016-11-17T15:58:47+02:00 INFO No non-zero metrics in the last 30s
+2016-11-17T15:59:17+02:00 INFO No non-zero metrics in the last 30s
+2016-11-17T15:59:33+02:00 ERR Connecting error publishing events (retrying): Get http://10.9.130.149:9200: dial tcp 10.9.130.149:9200: connectex: No connection could be made because the target machine actively refused it.
+2016-11-17T15:59:47+02:00 INFO No non-zero metrics in the last 30s
+2016-11-17T15:59:47+02:00 INFO Stopping Winlogbeat
+2016-11-17T15:59:47+02:00 INFO EventLog[Security] Stop processing.
+2016-11-17T15:59:47+02:00 INFO EventLog[Application] Stop processing.
+2016-11-17T15:59:47+02:00 INFO EventLog[System] Stop processing.
+2016-11-17T15:59:47+02:00 INFO Total non-zero values:  msg_file_cache.SecurityHits=99 msg_file_cache.SystemHits=86 msg_file_cache.SystemMisses=14 libbeat.publisher.published_events=300 msg_file_cache.ApplicationHits=76 msg_file_cache.ApplicationMisses=25 msg_file_cache.SecurityMisses=1
+2016-11-17T15:59:47+02:00 INFO Uptime: 28m0.652s
+2016-11-17T15:59:47+02:00 INFO winlogbeat stopped.

@@ -1,8 +1,8 @@
 ﻿cls
-$hostnames = Get-Content "D:\Scipts\ALL_servers.csv"
+$hostnames = @(Get-ADComputer -LDAPFilter "(Name=*SRV*)")#Get-Content "D:\Scipts\ALL_servers.csv"
 foreach ($hostname in $hostnames) { 
-Write-Host $hostname
-Invoke-Command -ComputerName $hostname -ScriptBlock { 
-Start-Service -Name "Zabbix Agent"
+Write-Host $hostname.name
+Invoke-Command -ComputerName $hostname.name -ScriptBlock { 
+get-Service -Name "Zabbix Agent"
 }
 }

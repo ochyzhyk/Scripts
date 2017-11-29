@@ -1,0 +1,1 @@
+SELECT * FROM master.dbo.sysdatabases WHERE name NOT IN ('master', 'tempdb', 'msdb', 'model')

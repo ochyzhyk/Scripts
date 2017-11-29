@@ -1,0 +1,6 @@
+c:\users\chyzhyko_m\documents\visual studio 2013\Projects\Remember\Remember\bin\Debug\Remember.exe.config
+c:\users\chyzhyko_m\documents\visual studio 2013\Projects\Remember\Remember\bin\Debug\Remember.exe
+c:\users\chyzhyko_m\documents\visual studio 2013\Projects\Remember\Remember\bin\Debug\Remember.pdb
+c:\users\chyzhyko_m\documents\visual studio 2013\Projects\Remember\Remember\obj\Debug\Remember.csprojResolveAssemblyReference.cache
+c:\users\chyzhyko_m\documents\visual studio 2013\Projects\Remember\Remember\obj\Debug\Remember.exe
+c:\users\chyzhyko_m\documents\visual studio 2013\Projects\Remember\Remember\obj\Debug\Remember.pdb

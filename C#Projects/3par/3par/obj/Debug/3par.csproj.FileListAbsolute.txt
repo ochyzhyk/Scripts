@@ -1,0 +1,9 @@
+c:\users\chyzhyko_m\documents\visual studio 2013\Projects\3par\3par\bin\Debug\3par.exe.config
+c:\users\chyzhyko_m\documents\visual studio 2013\Projects\3par\3par\bin\Debug\3par.exe
+c:\users\chyzhyko_m\documents\visual studio 2013\Projects\3par\3par\bin\Debug\3par.pdb
+c:\users\chyzhyko_m\documents\visual studio 2013\Projects\3par\3par\obj\Debug\3par.csprojResolveAssemblyReference.cache
+c:\users\chyzhyko_m\documents\visual studio 2013\Projects\3par\3par\obj\Debug\3par.exe
+c:\users\chyzhyko_m\documents\visual studio 2013\Projects\3par\3par\obj\Debug\3par.pdb
+C:\Users\chyzhyko_m\Documents\Visual Studio 2013\Projects\3par\3par\bin\Debug\Newtonsoft.Json.dll
+C:\Users\chyzhyko_m\Documents\Visual Studio 2013\Projects\3par\3par\bin\Debug\Newtonsoft.Json.pdb
+C:\Users\chyzhyko_m\Documents\Visual Studio 2013\Projects\3par\3par\bin\Debug\Newtonsoft.Json.xml
