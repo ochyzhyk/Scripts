@@ -1,5 +1,5 @@
 #http://jongurgul.com/blog/get-stringhash-get-filehash/
-$string = "30066900050"
+$string = "33366906750"
 Function Get-StringHash([String] $String,$HashName = "MD5")
 {
     $StringBuilder = New-Object System.Text.StringBuilder
